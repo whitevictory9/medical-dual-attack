@@ -19,7 +19,7 @@ from captum.attr import (
     IntegratedGradients, DeepLift, LayerGradCam, Saliency
 )
 from scipy.ndimage import gaussian_filter
-from utils import ScoreCAM  # 确保 utils.ScoreCAM 可用
+from utils import ScoreCAM
 
 
 def parse_args():
